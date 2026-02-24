@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+header,
+footer {
+    padding: 2rem 4rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem 10rem; 
+}
+
+img {
+    width: 600px;
+    border-radius: 3px;
+}
