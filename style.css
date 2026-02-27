@@ -14,26 +14,69 @@ body {
 header,
 footer {
   background-color: #1a1a1a;
-  padding: 2rem 4rem;
-}
-
-.logo {
-  color: #f5f5f5;
-  text-decoration: none;
-}
-
-section {
-  background-color: #1a1a1a;
+  padding: 2rem 6rem;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-  padding: 2rem 10rem;
+  gap: 4rem;
+  padding: 4rem 10rem;
+}
+
+.logo {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+section.slide {
+  background-color: #1a1a1a;
+  padding: 2rem;
+}
+
+section.hero {
+    display: flex;
+    gap: 2rem;
+    /*margin: 2rem 0;*/
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    gap: 3rem;
+    align-items: center;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    padding: 0 3rem;
+    text-align: center;
+}
+
+section.gallery {
+    text-align: center;
+    background-color: #111111;
 }
 
 img {
   width: 600px;
   border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+footer .logo {
+    padding-right: 20px;
+}
+footer address {
+  padding-left: 20px;
+  border-left: 1px solid #333;
 }
