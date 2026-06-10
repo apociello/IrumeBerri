@@ -198,11 +198,15 @@ footer address {
 
   main {
     padding: 2rem 1rem;
-    gap: 4rem
+    gap: 3.5rem
+  }
+
+  section.hero{
+    gap: 3rem;
   }
 
   .hero-text {
-    gap: 3rem;
+    gap: 2rem;
   }
 
   h1 {
