@@ -14,4 +14,5 @@ A one-page landing site for a strategic advisory firm.
 
 ## Built with
 
-* HTML & CSS
+* HTML
+* CSS
